@@ -6,11 +6,11 @@ Tested up to: 4.8
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
-Allow developers to exclude posts that are Posts 2 Posts parents or children of a specific link type from a WP Query.
+Allow WordPress developers using the [Posts 2 Posts plugin](https://github.com/scribu/wp-posts-to-posts) to exclude posts that are parents or children of a specific link type when using WP Query.
 
 ## Description
 
-Upon activating this plugin, just modify your use of WP Query as follows:
+Upon activating this plugin, just add a `exclude_children` or `exclude_parents` argument to WP Query constructor and specify the name of the link type:
 
 ```php
 // Exclude any posts that are children of type [link_name]
