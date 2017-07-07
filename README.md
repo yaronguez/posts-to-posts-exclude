@@ -1,4 +1,4 @@
-=== Posts to Posts - Exclude Parents / Children ===
+# Posts to Posts - Exclude Parents / Children
 
 Contributors: yaronguez
 Donate link: http://trestian.com
@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Allow developers to exclude posts that are Posts 2 Posts parents or children of a specific link type from a WP Query.
 
-== Description ==
+## Description
 
 Upon activating this plugin, just modify your use of WP Query as follows:
 
@@ -28,7 +28,7 @@ $query = new WP_Query(array(
 [link_name] is whatever you defined your Posts to Posts relationship to be. Done!
 
 
-== Changelog ==
+## Changelog
 
 = 1.0 =
 * Initial version
